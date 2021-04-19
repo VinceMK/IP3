@@ -1,15 +1,37 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,100&display=swap');
 body {
     padding-top: 56px;
+    font-family: 'Poppins';
+    font-weight: 500;
 }
 
 .display-4,
 .h6 {
-    color: cornsilk;
+    color: white;
     font-family: 'Poppins';
 }
 
 .jumbotron {
     background: url("/IP-3/img/assets/backgrounds/h_img.jpg") no-repeat center;
     background-size: cover;
+}
+
+.Services {
+    height: 500px;
+}
+
+#Serv {
+    background: url("/IP-3/img/assets/backgrounds/s_image.jpg") no-repeat center;
+    background-size: cover;
+}
+
+#Service-head {
+    color: white;
+}
+
+.h6-1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500px;
+    color: white;
+    font-size: 12px;
 }
