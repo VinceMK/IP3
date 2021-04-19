@@ -17,7 +17,7 @@ body {
 }
 
 .Services {
-    height: 500px;
+    /* height: 500px; */
 }
 
 #Serv {
@@ -34,4 +34,17 @@ body {
     font-weight: 500px;
     color: white;
     font-size: 12px;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 5vw);
+    grid-gap: 15px;
+}
+
+.gallery__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
