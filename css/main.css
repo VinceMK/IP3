@@ -22,7 +22,7 @@ body {
 
 #Serv {
     background: url("/IP-3/img/assets/backgrounds/s_image.jpg") no-repeat center;
-    background-size: cover;
+    object-fit: contain;
 }
 
 #Service-head {
@@ -39,8 +39,8 @@ body {
 .gallery {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(2, 5vw);
-    grid-gap: 15px;
+    grid-template-rows: repeat(2, 18vw);
+    grid-gap: 3px;
 }
 
 .gallery__img {
